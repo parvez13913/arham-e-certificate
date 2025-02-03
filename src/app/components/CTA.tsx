@@ -15,15 +15,15 @@ export default function CTA() {
   };
 
   return (
-    <section className="bg-gray-200 py-20">
+    <section className="bg-blue-600 text-white py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Ready to Create Your First Certificate?
+            Ready to Elevate Your Educational Certificates?
           </h2>
           <p className="text-xl mb-8">
-            Sign up for our newsletter to receive tips, tricks, and exclusive
-            offers.
+            Join our community of educators and start creating professional
+            certificates today.
           </p>
           <form
             onSubmit={handleSubmit}
@@ -35,18 +35,18 @@ export default function CTA() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="px-4 py-3 rounded-full flex-grow max-w-md"
+              className="px-4 py-3 rounded-full flex-grow max-w-md text-gray-800"
             />
             <button
               type="submit"
-              className="bg-blue-600 text-white py-3 px-8 rounded-full font-semibold hover:bg-blue-700 transition duration-300"
+              className="bg-white text-blue-600 py-3 px-8 rounded-full font-semibold hover:bg-blue-100 transition duration-300"
             >
-              Subscribe
+              Get Started
             </button>
           </form>
           <div className="mt-8">
-            <Link href="/create" className="text-blue-600 hover:underline">
-              Or start creating your certificate now →
+            <Link href="/create" className="text-white hover:underline">
+              Or start creating your educational certificates now →
             </Link>
           </div>
         </div>
