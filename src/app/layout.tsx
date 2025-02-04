@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from "./components/navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,7 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="sticky top-0 z-[9999]">
+          <Navbar />
+        </div>
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

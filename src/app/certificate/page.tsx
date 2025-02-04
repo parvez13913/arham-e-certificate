@@ -12,7 +12,7 @@ function Certificate() {
   };
 
   return (
-    <div className="p-4 bg-gradient-to-r from-violet-500 to-purple-500">
+    <div className="p-4">
       <h1 className="text-4xl text-center font-semibold my-4">
         Generate Certificate
       </h1>
