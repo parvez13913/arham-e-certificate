@@ -18,8 +18,8 @@ export default function Hero() {
             education and guidance to help you achieve your goals.
           </p>
           <Link
-            href="/courses"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105"
+            href="/course-outline"
+            className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105"
           >
             Explore Our Courses
           </Link>
