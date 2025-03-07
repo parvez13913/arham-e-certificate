@@ -12,7 +12,7 @@ const teachers = [
     name: "Md Palash Khan",
     role: "Senior Teacher",
     subjects: ["English"],
-    image: "/polash.jpg",
+    image: "/polash-1.png",
   },
   {
     name: "Abir Hasan",
@@ -23,8 +23,14 @@ const teachers = [
   {
     name: "Tarek Rahman",
     role: "Social Science Teacher",
-    subjects: ["Chemistry", "Biology"],
+    subjects: ["Social Science", "Bangla"],
     image: "/tarek.jpg",
+  },
+  {
+    name: "Tasmeri Islam Tripti",
+    role: "Commerce Tutor",
+    subjects: ["Accounting", "Business Law"],
+    image: "/tripti.jpeg",
   },
   {
     name: "Parvez Rahman",
@@ -33,14 +39,14 @@ const teachers = [
     image: "/parvez-rahman.png",
   },
   {
-    name: "Rafiqul Islam",
+    name: "Mansur Hossain",
     role: "Science Specialist",
     subjects: ["Mathematics", "Higher Mathematics"],
-    image: "/images/rafiqul-islam.jpg",
+    image: "/mansur.jpg",
   },
   {
     name: "Sabina Yasmin",
-    role: "Social Science Teacher",
+    role: "Science Specialist",
     subjects: ["Bangladesh and Global Studies", "Religion"],
     image: "/images/sabina-yasmin.jpg",
   },
