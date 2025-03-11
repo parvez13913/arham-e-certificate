@@ -58,7 +58,7 @@ const teachers = [
   },
   {
     name: "Md Asad Ullah",
-    role: "Science Specialist",
+    role: "Science",
     subjects: ["Mathematics", "Higher Mathematics"],
     image: "/tarek.jpg",
   },
